@@ -10,7 +10,7 @@ feature 'Submitting a new link' do
     expect(current_path).to eq '/links'
 
     within 'ul#links' do
-      expect(page).to have_content('Google')
+      expect(page).to have_content('search')
     end
   end
 end
